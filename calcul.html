@@ -6,7 +6,8 @@
     <title>calcul arithmetique</title>
     <style>
         body{
-            background-color:beige;
+            background-color:rgb(248, 248, 188);
+            margin: 0px;
         }
         header{
             background:linear-gradient(blue,white,blue);
@@ -16,7 +17,7 @@
             color: brown;
             text-shadow: -5px -2px 5px red ;
         }
-        p{
+        main p{
             width: 60%;
             margin-left: auto;
             margin-right: auto;
@@ -38,6 +39,11 @@
             border-collapse: collapse;
             width: 30%;
         }
+        table{
+            display: inline-block;
+            margin: 50px 100px 50px 50px;
+            
+        }
         th{
             background-color: blue;
             color:white;
@@ -48,20 +54,76 @@
             border:3px solid blue;
             padding:10px;
             border-radius: 10px;
+            margin-left: 200px;
+            
         }
+        section{
+            text-align: center;
+            margin: 20px;
+        }
+        footer{
+            background:linear-gradient(blue,white,blue);
+            padding: 5px;
+            text-align: center;
+            font-weight: bolder;
+            position: fixed ;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+        }
+        footer p{
+           display: inline-block; 
+           width: 25%;
+        }
+        article{
+            height: 40px;
+            width: 40%;
+            margin:auto;
+            background-color: rgb(248, 248, 188);
+            position: relative;
+            top: -20px;
+        }
+        #d1{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(248, 248, 188);
+            border-radius:100%;
+            position: absolute;
+            top:50px;
+            left: 15px;
+        }
+        #d2{
+            height: 60px;
+            width: 60px;
+            background-color: rgb(248, 248, 188);;
+            border-radius:100%;
+            position:absolute;
+            top:50px;
+            right: 15px;
+            
+        }
+
+        
+
     </style>
 </head>
 <body>
     <header>
         <h1>Le calcul arithmètique</h1>
     </header>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <article>
+    </article>
+    
     <main>
         <p>
-            L'arithmètique est une branche des mathèmatique qui  ètude les propriètès et les regles  de calcul entre les
-            nombres.Elle traite,entre autres des opèrations traditionelle telles l'addition,la soustaction,la multiplication
-            et la division.Ces opèrations peuvent etre programmèes pour donner les algoritmes Arithmètique.
+            L'arithmètique est une branche des mathèmatique qui ètude les propriètès et les regles de calcul entre les nombres.
+            Elle traite,entre autres des opèrations traditionelle telles l'addition,la soustaction,la multiplication et la division.
+            Ces opèrations peuvent etre programmèes pour donner les algoritmes Arithmètique.
         </p>
         <hr>
+    <section>
         <table>
             <tr>
                 <th>modules arithmetiques</th>
@@ -79,16 +141,15 @@
                 <td>Le ppcm</td>
             </tr>
         </table>
-        <img src="opert.jpeg" alt="opèrateurs de calcul">
+        <img src="images/opert.jpeg" alt="opèrateurs de calcul">
+        </section>
+        
         </main>
-        <footer>
+    <footer>
             <p>travail réaliser le 24/09/25</p>
             <p>3eme SI-STI</p>
             <p>lycèe mahmoud magdich sfax</p>
-        </footer>
+    </footer>
 
     </body>
-
 </html>
-
-
